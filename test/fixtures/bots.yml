@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  symbol: MyString
+  minimum_price: 9.99
+  maximum_price: 9.99
+  placed_orders_count: 1
+  total_investment: 9.99
+  base_asset: MyString
+  quote_asset: MyString
+  entry_price: 9.99
+  take_profit_price: 9.99
+
+two:
+  symbol: MyString
+  minimum_price: 9.99
+  maximum_price: 9.99
+  placed_orders_count: 1
+  total_investment: 9.99
+  base_asset: MyString
+  quote_asset: MyString
+  entry_price: 9.99
+  take_profit_price: 9.99

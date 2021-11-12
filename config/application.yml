@@ -1,0 +1,22 @@
+default: &default
+  DB_NAME: "trading_bot"
+  DB_HOST: "localhost"
+  DB_PORT: "5432"
+  DB_USERNAME: "postgres"
+  DB_PASSWORD: "postgres"
+  REDIS_URL: "redis://localhost:6379"
+  REDIS_DB: "0"
+  BINANCE_API_KEY: ""
+  BINANCE_SECRET_KEY: ""
+development:
+  <<: *default
+
+test:
+  <<: *default
+  TEST_RETRY: "0"
+
+# Set environment variables required in the initializers in order to precompile the assets.
+# Because it initializes the app, so all variables need to exist in the Docker build stage (used in bin/docker-assets-precompile).
+docker_build:
+  <<: *default
+  SECRET_KEY_BASE:

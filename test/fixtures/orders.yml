@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bot: one
+  exchange_order_id: MyString
+  client_order_id: MyString
+  price: 9.99
+  original_quantity: 9.99
+  executed_quantity: 9.99
+  cumulative_quote_quantity: 9.99
+  status: MyString
+  type: 
+  side: MyString
+  fills: MyString
+
+two:
+  bot: two
+  exchange_order_id: MyString
+  client_order_id: MyString
+  price: 9.99
+  original_quantity: 9.99
+  executed_quantity: 9.99
+  cumulative_quote_quantity: 9.99
+  status: MyString
+  type: 
+  side: MyString
+  fills: MyString

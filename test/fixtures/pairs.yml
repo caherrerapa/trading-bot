@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  symbol: MyString
+  quote_asset: MyString
+  base_asset: MyString
+  precision: 9.99
+
+two:
+  symbol: MyString
+  quote_asset: MyString
+  base_asset: MyString
+  precision: 9.99

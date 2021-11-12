@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  asset: MyString
+  free: 9.99
+  locked: 9.99
+
+two:
+  asset: MyString
+  free: 9.99
+  locked: 9.99

@@ -18,5 +18,9 @@ module TradingBot
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.active_job.queue_adapter = :delayed_job
+
+    config.binance_api_key    = ENV.fetch('BINANCE_API_KEY')
+    config.binance_secret_key = ENV.fetch('BINANCE_SECRET_KEY')
   end
 end
